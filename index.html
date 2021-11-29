@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>
+            Course Purchase
+        </title>
+        <link rel="stylesheet" href="Style/style.css">
+        <script type="text/javascript" src="Script/main.js"></script>
+    </head>
+    <body>
+        <div id="MainDiv">
+           <button id="newuser" type="button" onclick="Registration()">New User</button>
+           <button id="login" type="button" onclick="Login()">Login</button>
+
+        </div>
+        <div id="RegistrationDiv">
+            <h1>Sign in
+            </h1>
+            <input type="text" id="uname" placeholder="UserName"><br>
+            <input type="text" id="age" placeholder="Age"><br>
+            <input type="text" id="mobileno" placeholder="MobileNo"><br>
+            <button type="button" onclick="userDetails()">Submit</button>
+            <label id="userid"></label>
+           
+
+
+        </div>
+        <div id="LoginDiv">
+            <input type="text" placeholder="UserId">
+            <button type="button" onclick="Course()">Validate</button><br>
+            <label for="" id="details"></label><br><br>
+        </div>
+
+        <div id="CourseDiv">
+            <button type="button" onclick="AvailCourse()">Available Courses</button>
+            <button type="button" onclick="Entrolled()">Entrolled Courses</button>
+
+        </div>
+        <div id="AvailCoursesDiv">
+            <select name="" id="selcourse">
+            <option value="">C#</option>
+            <option value="">HTML</option>
+            <option value="">CSS</option>
+            <option value="">JAVASCRIPT</option>
+            <option value="">TYPESCRIPT</option></select>
+            <input type="text" placeholder="Enter required days you want" id="required">
+            <button type="button"onclick="entrolling">Entroll</button>
+
+
+
+
+        </div>
+
+        <div id="EntrolledCourse">
+            <label id="entrollcourse" for="">Course History</label><br>
+
+
+        </div>
+    </body>
+</html>

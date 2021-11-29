@@ -1,0 +1,25 @@
+#MainDiv{
+    display: block;
+    margin-left: 5%;
+
+}
+#RegistrationDiv{
+    display: none;
+}
+#LoginDiv{
+    display: none;
+}
+
+#CourseDiv{
+    display: none;
+}
+
+#AvailCoursesDiv{
+    display: none;
+}
+
+#EntrolledCourse{
+    display: none;
+}
+
+
